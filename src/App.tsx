@@ -1,3 +1,4 @@
+import ButtonDelete from "./components/button-delete"
 import CheckoutBtn from "./components/checkout-btn"
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
         Hello, TokTok! 🚀
       </h1>
       <CheckoutBtn />
+      <ButtonDelete />
     </div>
   )
 }
